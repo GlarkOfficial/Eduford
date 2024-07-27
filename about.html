@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+       <a href="index.html"><img src = "images/logo.png"></a> 
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+
+<section class="about-us">
+<div class="row">
+    <div class="about-col">
+        <h1>We are the world's largest university</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit illum laboriosam tempora, consequuntur odit sapiente blanditiis! Tempora quod rem a corporis commodi temporibus molestiae. Laboriosam beatae officia ullam consequatur odit!</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="images/about.jpg" alt="">
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Illum aliquam ipsum, quas atque illo maiores in quasi. Beatae, similique quasi aliquid sint,<br> non quia doloremque cumque asperiores voluptatibus quod labore.</p>
+ <div class="icons">
+    <i class="fa fa-facebook" ></i>
+    <i class="fa fa-twitter" ></i>
+    <i class="fa fa-instagram" ></i>
+    <i class="fa fa-linkedin" ></i>
+ </div>
+<p>Made with <i class="fa fa-heart-o" ></i> Of CSS</p>
+</section>
+
+<script>
+var navLinks = document.getElementById("navLinks")
+
+function showMenu() {
+    navLinks.style.right = "0"
+}
+
+function hideMenu() {
+    navLinks.style.right = "-40%"
+}
+</script>
+</body>
+</html>
+
